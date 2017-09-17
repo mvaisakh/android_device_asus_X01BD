@@ -389,6 +389,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libstdc++.vendor
 
+# USB
+PRODUCT_PACKAGES += \
+	android.hardware.usb@1.0-service.x01bd
+
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_prop.mk
 
