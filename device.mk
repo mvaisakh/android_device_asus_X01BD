@@ -311,7 +311,7 @@ include vendor/qcom/common/perf/qti-perf.mk
 
 # Powerhint
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
+    $(LOCAL_PATH)/power-libperfmgr/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
 # Radio
 PRODUCT_PACKAGES += \
@@ -341,7 +341,8 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.safailnet.rc \
     init.target.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.performance.x01bd.rc
 
 # Recovery
 PRODUCT_PACKAGES += \
