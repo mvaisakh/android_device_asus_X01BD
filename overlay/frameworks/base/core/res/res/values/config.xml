@@ -692,4 +692,7 @@
 
     <!-- Boolean indicating if current platform supports HFP inband ringing -->
     <bool name="config_bluetooth_hfp_inband_ringing_support">true</bool>
+
+    <!-- Disable Dual Band Tethering because our radio does not support it -->
+    <bool name="config_wifi_dual_sap_mode_enabled">false</bool>
 </resources>
