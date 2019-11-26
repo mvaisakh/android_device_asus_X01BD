@@ -319,6 +319,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml
 
+# Recorder
+PRODUCT_PACKAGES += \
+    Recorder
+
 # Radio
 PRODUCT_PACKAGES += \
     rild \
