@@ -1,0 +1,1 @@
+allow hostapd vendor_file:dir { read };
