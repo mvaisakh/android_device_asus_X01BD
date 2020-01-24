@@ -1,0 +1,2 @@
+allow adpl vendor_file:dir { read };
+allow adpl diag_device:chr_file { read write };
