@@ -1,2 +1,2 @@
 allow adpl vendor_file:dir { read };
-allow adpl diag_device:chr_file { read write };
+allow adpl diag_device:chr_file { rw_file_perms open };

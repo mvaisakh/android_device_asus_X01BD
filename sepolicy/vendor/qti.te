@@ -1,2 +1,2 @@
 allow qti vendor_file:dir { read };
-allow qti diag_device:chr_file { read write };
+allow qti diag_device:chr_file { rw_file_perms open };
