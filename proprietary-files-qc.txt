@@ -369,13 +369,37 @@ vendor/lib64/vendor.qti.gnss@3.0-service.so|947bfafbf110d70656f434ab5845b6691b6b
 vendor/lib64/vendor.qti.gnss@3.0.so|ff1733d10abd97fa4381c798ae74b4cc5dac39e8
 
 # GPU firmware
+vendor/firmware/a225_pfp.fw
+vendor/firmware/a225_pm4.fw
+vendor/firmware/a225p5_pm4.fw
+vendor/firmware/a300_pfp.fw
+vendor/firmware/a300_pm4.fw
+vendor/firmware/a330_pfp.fw
+vendor/firmware/a330_pm4.fw
+vendor/firmware/a420_pfp.fw
+vendor/firmware/a420_pm4.fw
+vendor/firmware/a508_zap.b00
+vendor/firmware/a508_zap.b01
+vendor/firmware/a508_zap.b02
+vendor/firmware/a508_zap.elf
 vendor/firmware/a512_zap.b00
-vendor/firmware/a512_zap.b01
+vendor/firmware/a512_zap.b01|9c78e689efcae1413560a5633f031bd7
 vendor/firmware/a512_zap.b02
-vendor/firmware/a512_zap.elf
-vendor/firmware/a512_zap.mdt
+vendor/firmware/a512_zap.elf|aebd31b2e999f0049e26f22c696ad2e0 
+vendor/firmware/a512_zap.mdt|8f01e90b7c21b937851ce757afb413ff
 vendor/firmware/a530_pfp.fw
 vendor/firmware/a530_pm4.fw
+vendor/firmware/a508_zap.mdt
+vendor/firmware/a530_gpmu.fw2
+vendor/firmware/a530v1_pfp.fw
+vendor/firmware/a530v1_pm4.fw
+vendor/firmware/a530v2_seq.fw2
+vendor/firmware/a530v3_gpmu.fw2
+vendor/firmware/a530v3_seq.fw2
+vendor/firmware/a540_gpmu.fw2
+vendor/firmware/a630_gmu.bin
+vendor/firmware/a630_sqe.fw
+
 
 # Graphics - from Nokia DRG_sprout 10 QKQ1.190828.002 00WW_4_040 release-keys
 vendor/lib/egl/eglSubDriverAndroid.so|6414deefe8f8454dfd8dfb33006b94789d124dab
