@@ -1,1 +1,2 @@
 allow hal_rcsservice vendor_file:dir { read };
+allow hal_rcsservice diag_device:chr_file { open rw_file_perms };
