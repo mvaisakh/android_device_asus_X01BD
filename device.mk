@@ -92,6 +92,7 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libvolumelistener \
+    libtinycompress_vendor \
     tinymix
 
 # Audio Configs
