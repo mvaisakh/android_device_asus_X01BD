@@ -318,10 +318,6 @@ PRODUCT_PACKAGES += \
 # Performance
 include vendor/qcom/common/perf/qti-perf.mk
 
-# Powerhint
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
-
 # Radio
 PRODUCT_PACKAGES += \
     rild \
