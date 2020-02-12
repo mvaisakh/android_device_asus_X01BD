@@ -4,4 +4,8 @@ dontaudit init nvram_btwifi:process noatsecure;
 
 allow init hal_perf_default:binder { call };
 
+dontaudit init hal_power_hwservice:hwservice_manager { add };
+
 dontaudit init vendor_file:file { execute_no_trans };
+
+allow init hwservicemanager:binder { call transfer };
