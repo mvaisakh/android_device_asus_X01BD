@@ -28,6 +28,20 @@
 # USB HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.usb@1\.0-service\.x01bd     u:object_r:hal_usb_default_exec:s0
 
+## ZenParts Nodes ##
+
+# Backlight
+/sys/module/mdss_fb/parameters/backlight_dimmer                               u:object_r:sysfs_backlight:s0
+
+# Earpiece gain
+/sys/kernel/sound_control/earpiece_gain                                       u:object_r:sysfs_egain:s0
+
+# Headphone gain
+/sys/kernel/sound_control/headphone_gain                                      u:object_r:sysfs_hgain:s0
+
+# Microphone gain
+/sys/kernel/sound_control/mic_gain                                            u:object_r:sysfs_mgain:s0
+
 # Kcal
 /sys/devices/platform/kcal_ctrl.0(/.*)?                                       u:object_r:kcal_dev:s0
 /sys/bus/platform/drivers/kcal_ctrl(/.*)?                                     u:object_r:kcal_dev:s0
