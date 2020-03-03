@@ -182,6 +182,14 @@ on boot
     chown system system /proc/tpd_gesture
     chmod 0660 /proc/tpd_gesture
 
+    # Don't reset entire SoC on individual subsystem crash
+    write /sys/bus/msm_subsys/devices/subsys0/restart_level "related"
+    write /sys/bus/msm_subsys/devices/subsys1/restart_level "related"
+    write /sys/bus/msm_subsys/devices/subsys2/restart_level "related"
+    write /sys/bus/msm_subsys/devices/subsys3/restart_level "related"
+    write /sys/bus/msm_subsys/devices/subsys4/restart_level "related"
+
+
 # Peripheral manager
 service vendor.per_mgr /vendor/bin/pm-service
     class core
