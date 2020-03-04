@@ -165,11 +165,11 @@ vendor/etc/init/dpmQmiMgr.rc|67569302d3a8828a9118c835e5b69c51b0c8ac68
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|ab5d46cbf14ce90ab44aaab4dc1520378c568033
 vendor/lib64/libdpmqmihal.so|d5b8330b56d7e0c036b00a817754748bf3137774
 
-# DRM - from Nokia DRG_sprout 10 QKQ1.190828.002 00WW_4_040 release-keys
-vendor/bin/qseecomd|bb9dbf5c66a9d4383825a8e0c287d41f9f531a05
+# DRM - from LA.UM.8.2.r1-05100-sdm660.0
+vendor/bin/qseecomd|46e7940548aa3fe4f579c59858f2da4dba97707c
 vendor/lib/libGPreqcancel.so|0d4876f94aeaaa92608071d6f7246eec822bc12a
 vendor/lib/libGPreqcancel_svc.so|7d96ec19dc8dfa441547ff9c8077d2c1ccf3c5ba
-vendor/lib/libQSEEComAPI.so|1c134972d1629e7ec8e854f0fa43e2886556dbd7
+vendor/lib/libQSEEComAPI.so|a6d86434d8b953154fa9494f4204cc82efbef266
 vendor/lib/libbase64.so|f2f4859d107fe43569967fdcec0c3ec3c911713e
 vendor/lib/libcppf.so|04d42e86256394f361560ca3038c055dc1df4b6a
 vendor/lib/libcpion.so|ef80c35b037cd68eeb24d16fc87b26549abeb50c
@@ -182,26 +182,26 @@ vendor/lib/librpmb.so|688b867d652455f36620fb4dba99867e23750d31
 vendor/lib/libSecureUILib.so|54a5e4bdda35fb0c185dc4d5f02c51fc761ec933
 vendor/lib/libsecureui.so|317896d31fa0afaaff1a82da559fd9ec8023ea43
 vendor/lib/libsecureui_svcsock.so|d376d887cfdddb09d343742d5110b69a39bcc0fa
-vendor/lib/libsdedrm.so|b603b6beaa50d49604ab2ebe0977a9ef79252b20
+vendor/lib/libsdedrm.so|0ac8ad285d137830d1971199ea86230855863321
 vendor/lib/libsi.so|a537a21eca1494454528cb330dd781bd73adacf7
 vendor/lib/libssd.so|3a346acc32b0c6c973eae448b73da3e8d35f75f8
 vendor/lib64/libGPreqcancel.so|76b35e76a85b333f46ab749b7865c26ba0ca7bc4
-vendor/lib64/libGPreqcancel_svc.so|610f0d55e3c3b31a5fdd590dcd6ec8c2cf258d9b
-vendor/lib64/libQSEEComAPI.so|1dfc70896af18264af46be4bf797680cdd6b018b
+vendor/lib64/libGPreqcancel_svc.so|6507278ce9cccec4a20f2f8412d836a4ea089c21
+vendor/lib64/libQSEEComAPI.so|47bce9fbdfa7dcd056b1249e686f2a311491b808
 vendor/lib64/libbase64.so|33822fa949deae67b3c5ab5e5835d670cfa5ffba
 vendor/lib64/libcpion.so|ff24ef248bb35fd3cc1081a63f33c2565dc6351f
-vendor/lib64/libdrmfs.so|d5847a27b74955a0ccfb2da499fa42902c5bf1df
-vendor/lib64/libdrmtime.so|9f1337004246fa7e6f726486bcab949fe5e2459f
+vendor/lib64/libdrmfs.so|e25d146688b139713f2ecfa1a70c4b368499ec49
+vendor/lib64/libdrmtime.so|de5966dd9cc844f28994b7673f61e0fcffe29c34
 vendor/lib64/liboemcrypto.so|e44fa8bf9bed1541342390bf316c34fe9f29cc4e
 vendor/lib64/libqisl.so|f81d523e3e257e99bd055f6576521519a074e630
 vendor/lib64/librmp.so|e47e679f717a4abf962665a01a1fc0ea2ccff673
-vendor/lib64/librpmb.so|a6add4226a289242eb2e1ccef23a94d100a94064
-vendor/lib64/libSecureUILib.so|3a059d1fe3395eaefeb7817ad3af46987b6f4794
+vendor/lib64/librpmb.so|4089ad0c91a59e2da8fd56796b1eff066321de6c
+vendor/lib64/libSecureUILib.so|0675928ba17a6206e3ac02e0c1b153bd7ea2806f
 vendor/lib64/libsecureui.so|4a9861e7887b0e03294f86009b7600369d113964
-vendor/lib64/libsecureui_svcsock.so|889d4a12c5dee56ed4b10548abbd7b9033cbdad2
+vendor/lib64/libsecureui_svcsock.so|9cb1b317f10d53819158ff8b05b25929a7759857
 vendor/lib64/libsdedrm.so|2add69c575f5745d0db2bbe8dfb7f75f9dc03ce6
 vendor/lib64/libsi.so|6cc6ec1eca11bb4b8e7f8021a5760f425e203288
-vendor/lib64/libssd.so|a64337d8044607b81adcf7e8c5760cf8cdcf82b4
+vendor/lib64/libssd.so|bf3b64cc51cbbe2d70373d94025725c49ce1d46b
 
 # DRM - HDCP - from Nokia DRG_sprout 10 QKQ1.190828.002 00WW_4_040 release-keys
 vendor/bin/hdcp1prov|fdc348ed8d3ef86b93240c0add73a5aa21a7a8cd
@@ -390,13 +390,13 @@ vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc|573b7392c899700820
 vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so|595ba927e28accdb5c5e6927a7bb5ef17ad455a1
 vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so|69fd7a9f800da8cb74ae3a726188c028bc360d05
 
-# Keymaster - from LA.UM.8.2.r1-05100-sdm660.0
+# Keymaster - from LA.UM.8.2.1.r1-03000-sdm660.0
 vendor/lib/libkeymasterdeviceutils.so|08c9b6bcb8289b682760ff8d58e0cca909e3a8ca
-vendor/lib/libkeymasterprovision.so|3920e501ffcf56c82639d73ed5866a2f039e90b3
-vendor/lib/libkeymasterutils.so|2a93e39ed018027700c1e86d75f2b3f04039ad61
+vendor/lib/libkeymasterprovision.so|34b1ad556f67162f03858d652ddd20daeadbe5a4
+vendor/lib/libkeymasterutils.so|f4f45f3b85d00e5aed9759c6262ebce96f8f7b51
 vendor/lib64/libkeymasterdeviceutils.so|b5d4819abb7dbd7908dfe7c6cfa5035e02b10383
-vendor/lib64/libkeymasterprovision.so|8d916f8449aeadd7469db6f15d62d6f32878e817
-vendor/lib64/libkeymasterutils.so|f2a26b5a54c0c3202ef6b3b5c8caa43460ef9902
+vendor/lib64/libkeymasterprovision.so|bf4845970dc8f687b505e4263874a73395c3bf72
+vendor/lib64/libkeymasterutils.so|b4fd9216b4ee9c2ef91cca3d08ca030ff51fdad1
 
 # Listen - from LA.UM.8.2.1.r1-03000-sdm660.0
 vendor/lib/hw/sound_trigger.primary.sdm660.so|622527f59f70daec5e934483a4c47deeadfe5344
