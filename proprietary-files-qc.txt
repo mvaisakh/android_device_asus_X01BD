@@ -77,8 +77,6 @@ vendor/lib/soundfx/libqcbassboost.so|e2ecd6cb516f782b12aaf38698b0d2b6b6ba9c8d
 vendor/lib/soundfx/libqcreverb.so|b705137030ea5ff6a3c44c1d826844a379ffdf46
 vendor/lib/soundfx/libqcvirt.so|39f0fa27a2c87ede85db99ccfdd19d6aa0b3ef99
 
-# Bluetooth - from LA.UM.8.2.r1-05100-sdm660.0
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|dce7c7298b1801f6a037dc3e4597af56e3649bd0
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|cfab82ed7f73907140bacebf8f4a2d4a4596d1c2
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|ebdfcc7064fc144acf6cba300486c6394af3d73b
