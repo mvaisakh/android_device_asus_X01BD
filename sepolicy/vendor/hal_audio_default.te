@@ -1,2 +1,0 @@
-# Allow audio hal to get region_prop
-get_prop(hal_audio_default, region_prop)
